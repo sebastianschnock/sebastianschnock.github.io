@@ -1,0 +1,87 @@
+/*******************************************************************************
+
+    Base styles
+
+*******************************************************************************/
+
+
+
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    height: 100%;
+    font-family: 'SourceCodePro';
+}
+
+
+
+
+
+/*******************************************************************************
+
+    Fonts
+
+*******************************************************************************/
+
+
+
+@font-face {
+  font-family: SourceCodePro;
+  src: url('assets/fonts/SourceCodePro-Regular.otf');
+}
+@font-face {
+  font-family: SourceCodePro;
+  src: url('assets/fonts/SourceCodePro-Bold.otf');
+  font-weight: bold;
+}
+
+
+
+
+
+/*******************************************************************************
+
+    Content
+
+*******************************************************************************/
+
+
+
+.main-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.main-header {
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 2em;
+}
+
+.avatar-image {
+    border-radius: 100%;
+    width: 5em;
+    height: auto;
+    margin: 1em 0;
+}
+
+.github-link {
+    background-image: url('assets/images/Octocat.png');
+    background-size: cover;
+    background-position: center center;
+    height: 2em;
+    width: 2em;
+    display: inline-block;
+    margin-top: 2em;
+}
+.github-link a { 
+    display: block;
+    height: 100%;
+}
+
