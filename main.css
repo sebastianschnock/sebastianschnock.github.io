@@ -72,9 +72,9 @@ html {
 }
 
 body {
-    position: relative;
-    height: 100%;
     font-family: 'SourceCodePro';
+    height: 100%;
+    position: relative;
 }
 
 p {
@@ -114,34 +114,34 @@ p {
 
 
 .main-content {
-    position: absolute;
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    position: absolute;
     text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .main-header {
-    font-weight: bold;
     font-size: 2em;
+    font-weight: bold;
     line-height: 2em;
 }
 
 .avatar-image {
     border-radius: 100%;
-    width: 5em;
     height: auto;
     margin: 1em 0;
+    width: 5em;
 }
 
 .github-link {
     background-image: url('assets/images/Octocat.png');
-    background-size: cover;
     background-position: center center;
-    height: 2em;
-    width: 2em;
+    background-size: cover;
     display: inline-block;
-    margin-top: 2em;
+    height: 2em;
+    margin: 2em 0;
+    width: 2em;
 }
 .github-link a { 
     display: block;
